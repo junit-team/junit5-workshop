@@ -1,0 +1,43 @@
+repositories {
+	mavenCentral()
+}
+
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0-M3'
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.junit.platform.gradle.plugin'
+
+jar {
+	baseName = 'junit5-workshop'
+	version = '1.0.0-SNAPSHOT'
+}
+
+compileTestJava {
+	sourceCompatibility = 1.8
+	targetCompatibility = 1.8
+	options.compilerArgs += '-parameters'
+}
+
+dependencies {
+	// this is all you need to write tests with JUnit Jupiter;
+	// for writing tests "testCompile" scope would suffice, but extensions
+ 	// are defined in the project's "main" folder, so we need "compile"
+	// JUnit Jupiter API and TestEngine implementation
+	compile("org.junit.jupiter:junit-jupiter-api:5.0.0-M3")
+
+	// other test libraries work out of the box. e.g. AssertJ and Mockito
+	testCompile("org.assertj:assertj-core:3.3.0")
+	testCompile("org.mockito:mockito-core:1.10.19")
+
+	// contains the engine that actually runs the Jupiter-tests
+	testRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.0-M3")
+}
