@@ -7,7 +7,7 @@ Slides, examples, and exercises for a JUnit 5 Workshop, initially held by [Marc 
 1. introduction (Nicolai, 45 minutes)
     * [(tool) setup](#setup)
     * basic features (`@Test`, lifecycle, ...)
-    * simple task to write a test
+    * simple [tasks to write some tests](src/test/java/org/junit/junit5workshop/_1_basics)
 2. dynamic test (Marc, 30 minutes)
     * exercise to create dynamic tests
 3. extension mechanism (theory; Nicolai, 15 minutes)
