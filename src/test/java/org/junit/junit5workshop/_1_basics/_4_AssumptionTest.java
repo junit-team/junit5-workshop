@@ -2,7 +2,7 @@ package org.junit.junit5workshop._1_basics;
 
 import java.time.LocalDateTime;
 
-public class _4_AssumptionTest {
+class _4_AssumptionTest {
 
 	/*
 	 * Write tests that use assumptions to make sure

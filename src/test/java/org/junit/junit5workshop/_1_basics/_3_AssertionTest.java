@@ -1,6 +1,6 @@
 package org.junit.junit5workshop._1_basics;
 
-public class _3_AssertionTest {
+class _3_AssertionTest {
 
 	/*
 	 * Write tests that use a couple of basic assertions:

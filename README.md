@@ -5,9 +5,9 @@ Slides, examples, and exercises for a JUnit 5 Workshop, initially held by [Marc 
 ## Outline
 
 1. introduction (Nicolai, 45 minutes)
-    * [(tool) setup](#setup)
-    * basic features (`@Test`, lifecycle, ...)
-    * simple [tasks to write some tests](src/test/java/org/junit/junit5workshop/_1_basics)
+    * [setup](#setup)
+    * [basic features](https://codefx-org.github.io/talk-junit-5/#/_basics) (`@Test`, lifecycle, ...)
+    * simple [tasks](src/test/java/org/junit/junit5workshop/_1_basics) to write some tests
 2. dynamic test (Marc, 30 minutes)
     * exercise to create dynamic tests
 3. extension mechanism (theory; Nicolai, 15 minutes)
@@ -21,13 +21,7 @@ Slides, examples, and exercises for a JUnit 5 Workshop, initially held by [Marc 
 6. migration, rule support (Nicolai, 10 minutes)
 7. Q & A & more hacking, open end...
 
-## Content
-
-### Introduction
-
-After this you will be able to write simple tests in JUnit 5 and run them with Mavn, Gradle, IntelliJ, and maybe even Eclipse.
-
-#### Setup
+## Setup
 
 First, clone the project:
 
