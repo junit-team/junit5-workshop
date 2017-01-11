@@ -28,7 +28,7 @@ git clone https://github.com/junit-team/junit5-workshop.git
 ```
 
 JUnit-5-specific plugins for **Maven** Surefire and **Gradle** are included in the project's `pom.xml` and `build.gradle` so both tools work without additional setup.
-Try it with `mvn test` or `gradle test`.
+Try it with `mvn clean test` or `gradle test`. Alternatively, you can use the provided Gradle or Maven wrappers with `./mvnw clean test` or `./gradlew test`.
 
 **IntelliJ** is the first (and so far only) tool that has native support and everything should work out of the box.
 Since this project uses JUnit 5 Milestone 3 [2016.3.1](https://blog.jetbrains.com/idea/2016/12/intellij-idea-2016-3-1-rc-updates-junit-5-support-to-m3/) is required to run the tests.
