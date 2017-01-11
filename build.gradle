@@ -41,3 +41,7 @@ dependencies {
 	// contains the engine that actually runs the Jupiter-tests
 	testRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.0-M3")
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.3'
+}
