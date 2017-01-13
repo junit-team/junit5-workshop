@@ -9,7 +9,7 @@ Slides, examples, and exercises for a JUnit 5 Workshop, initially held by [Marc 
     * [basic features](https://codefx-org.github.io/talk-junit-5/#/_basics) (`@Test`, lifecycle, ...)
     * simple [tasks](src/test/java/org/junit/junit5workshop/_1_basics) to write some tests
 2. dynamic test (Marc, 30 minutes)
-    * exercise to create dynamic tests
+    * [exercise](src/test/java/org/junit/junit5workshop/_2_dynamic_tests) to create dynamic tests
 3. extension mechanism ([theory](https://codefx-org.github.io/talk-junit-5/#/_extensions); Nicolai, 15 minutes)
 
 30 minute break
