@@ -1,7 +1,8 @@
-autoscale: true
 slidenumbers: true
 
-# Static vs. Dynamic Tests
+# Dynamic Tests
+
+![fit right 350%](../junit5.png)
 
 ---
 
