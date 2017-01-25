@@ -18,6 +18,33 @@
 			<scope>compile</scope>
 		</dependency>
 
+		<!-- only necessary when using the JUnitPlatform runner so tests
+             can be executed using JUnit 4 in old IDEs -->
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-runner</artifactId>
+			<version>1.0.0-M3</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- only needed here when used with junit-platform-runner
+		     should normally be in dependencies section of maven-surefire-plugin  -->
+		<dependency>
+			<!-- contains the engine that actually runs the Jupiter tests -->
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.0.0-M3</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- only needed here when used with junit-platform-runner
+		     should normally be in dependencies section of maven-surefire-plugin  -->
+		<dependency>
+			<!-- contains the engine that actually runs the Vintage tests -->
+			<groupId>org.junit.vintage</groupId>
+			<artifactId>junit-vintage-engine</artifactId>
+			<version>4.12.0-M3</version>
+			<scope>test</scope>
+		</dependency>
+
 		<!-- other test libraries work out of the box. e.g. ... -->
 		<dependency>
 			<!-- ... AssertJ ... -->
@@ -56,12 +83,6 @@
 						<groupId>org.junit.platform</groupId>
 						<artifactId>junit-platform-surefire-provider</artifactId>
 						<version>1.0.0-M3</version>
-					</dependency>
-					<dependency>
-						<!-- contains the engine that actually runs the Jupiter-tests -->
-						<groupId>org.junit.jupiter</groupId>
-						<artifactId>junit-jupiter-engine</artifactId>
-						<version>5.0.0-M3</version>
 					</dependency>
 				</dependencies>
 			</plugin>
