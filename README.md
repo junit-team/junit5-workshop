@@ -16,8 +16,8 @@ Slides, examples, and exercises for a JUnit 5 Workshop, initially held by [Marc 
 30 minute break
 
 4. extension mechanism ([practice](src/test/java/org/junit/junit5workshop/_3_extensions,) Nicolai, 30 minutes)
-5. architecture. modularization, side-by-side use of JUnit 4 and 5 (Marc, 15 minutes)
-6. roadmap to GA (Marc, 10 minutes)
+5. architecture. modularization, side-by-side use of JUnit 4 and 5 ([theory](slides/05_modularization/modularization.md); Marc, 15 minutes)
+6. roadmap to GA ([theory](slides/06_roadmap/roadmap.md); Marc, 10 minutes)
 7. Q & A & more hacking, open end...
 
 ## Setup
