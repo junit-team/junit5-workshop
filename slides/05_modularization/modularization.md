@@ -29,7 +29,7 @@ One JAR to rule them all…
 
 ---
 
-# [fit] Benefits of new Architecture
+# [fit] Benefits of New Architecture
 
 - Clearly separated APIs for test authors and build tools/IDEs
 - Stable _Platform_ with an SPI for _test engines_
@@ -94,7 +94,7 @@ public class JupiterTest {
 
 ---
 
-# `JUnitPlatform` in suite mode
+# `JUnitPlatform` in Suite Mode
 
 The `Runner` can also be used to build a test suite:
 
