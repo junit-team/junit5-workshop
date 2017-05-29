@@ -7,7 +7,7 @@ buildscript {
 		mavenCentral()
 	}
 	dependencies {
-		classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0-M3'
+		classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0-M4'
 	}
 }
 
@@ -32,14 +32,14 @@ dependencies {
 	// for writing tests "testCompile" scope would suffice, but extensions
  	// are defined in the project's "main" folder, so we need "compile"
 	// JUnit Jupiter API and TestEngine implementation
-	compile("org.junit.jupiter:junit-jupiter-api:5.0.0-M3")
+	compile("org.junit.jupiter:junit-jupiter-api:5.0.0-M4")
 
 	// other test libraries work out of the box. e.g. AssertJ and Mockito
 	testCompile("org.assertj:assertj-core:3.3.0")
 	testCompile("org.mockito:mockito-core:1.10.19")
 
 	// contains the engine that actually runs the Jupiter-tests
-	testRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.0-M3")
+	testRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.0-M4")
 }
 
 task wrapper(type: Wrapper) {
