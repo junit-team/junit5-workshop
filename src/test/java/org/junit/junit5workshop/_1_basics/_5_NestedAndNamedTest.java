@@ -19,7 +19,7 @@ class _5_NestedAndNamedTest {
 	/*
 	 * Demonstration of JUnit 5 features (particularly nesting and naming)
 	 * that was taken from the JUnit 5 User Guide
-	 * (http://junit.org/junit5/docs/5.0.0-M3/user-guide/#writing-tests-nested)
+	 * (http://junit.org/junit5/docs/5.0.0-M4/user-guide/#writing-tests-nested)
 	 */
 
 	Stack<Object> stack;
