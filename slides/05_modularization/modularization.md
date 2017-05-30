@@ -68,7 +68,7 @@ You can run “Vintage” JUnit 4 tests with the JUnit Platform using the JUnit 
         <dependency>
             <groupId>org.junit.vintage</groupId>
             <artifactId>junit-vintage-engine</artifactId>
-            <version>4.12.0-M3</version>
+            <version>4.12.0-M4</version>
         </dependency>
     </dependencies>
 </plugin>

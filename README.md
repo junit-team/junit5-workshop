@@ -32,6 +32,6 @@ JUnit-5-specific plugins for **Maven** Surefire and **Gradle** are included in t
 Try it with `mvn clean test` or `gradle test`. Alternatively, you can use the provided Gradle or Maven wrappers with `./mvnw clean test` or `./gradlew test`.
 
 **IntelliJ** is the first (and so far only) tool that has native support and everything should work out of the box.
-Since this project uses JUnit 5 Milestone 3 [2016.3.1](https://blog.jetbrains.com/idea/2016/12/intellij-idea-2016-3-1-rc-updates-junit-5-support-to-m3/) is required to run the tests.
+Since this project uses JUnit 5 Milestone 4 [2017.1.2](https://blog.jetbrains.com/idea/2017/04/intellij-idea-2017-1-2-update-is-available/) is required to run the tests.
 
 **Eclipse** requires a little fiddling to get to work but it is possible with 4.7 M4, following [these steps](https://bugs.eclipse.org/bugs/show_bug.cgi?id=488566#c8).
